@@ -31,12 +31,10 @@ div.d {
   width: 80%;
   background-color: #cba67a;
   padding: 2px;
-
-
 }
 
-div.qu {
-
+div.hypo {
+margin-left: 5%
 }
 
 div.co {
@@ -78,7 +76,22 @@ div.w3-container#header {
 }
 
 img {
+  outline-style: dashed;
+  outline-color: #cba67a;
+  outline-width: medium;
+
   float: left;
-  width: 50%;
+  width: 300px;
   height: auto;
+  margin: 15px;
+}
+img:hover {
+  width: 100%;
+  height: auto;
+  position: ;
+  align-self: center;
+}
+
+#end {
+  margin-bottom: 20px;
 }
